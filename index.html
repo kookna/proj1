@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport"
+		content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
+	<meta name="format-detection" content="telephone=no, address=no, email=no" />
+
+
+	
+	<title>현대그룹</title>
+
+	<!--  css -->
+	<link rel="stylesheet" type="text/css" href="css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="css/fonts.css" />
+	<link rel="stylesheet" type="text/css" href="css/common.css" />
+	<link rel="stylesheet" type="text/css" href="css/layout.css" />
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
+	<link rel="stylesheet" type="text/css" href="css/header.css" />
+	<link rel="stylesheet" type="text/css" href="css/footer.css" />
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+	<link rel="stylesheet" type="text/css" href="css/libs/animate.css" />
+	<link rel="stylesheet" type="text/css" href="css/libs/slick.css" />
+	<link rel="stylesheet" type="text/css" href="css/libs/lightbox.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/libs/swiper.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/libs/jquery.fullPage.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+	<!-- 공통js -->
+	<script type="text/javascript" src="js/libs/lightbox-plus-jquery.min.js"></script>
+	<script type="text/javascript" src="js/libs/jquery.min.js"></script>
+	<script type="text/javascript" src="js/common.js"></script>
+	<script type="text/javascript" src="js/libs/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/libs/slick.min.js"></script>
+	<script type="text/javascript" src="js/libs/jquery.dotdotdot.min.js"></script>
+	<script type="text/javascript" src="js/libs/jquery.matchHeight-min.js"></script>
+	<script type="text/javascript" src="js/libs/aos.js"></script>
+	<script type="text/javascript" src="js/libs/jquery.mCustomScrollbar.js"></script>
+	<script type="text/javascript" src="js/libs/jquery.fullPage.js"></script>
+	<script type="text/javascript" src="js/libs/swiper.min.js"></script>
+</head>
+
+
+
+
+<body class="body-main" >
+<!-- 모바일 사이트맵 -->
+<script>
+	$(function(){
+    $('.site_map .list_grup > ul > li > h2').click(function(){
+        $(this).next().slideToggle(300);
+        $('.site_map .list_grup > ul > li > h2').not(this)
+        .next().slideUp(300);return false;    
+    });
+});
+</script>
+
+
+
+	<!-- wrap : S //-->
+	<div class="wrap" id="wrap">
+		<header class="header">
+			<div class="header-wrap">
+				<div class="header-inner fx">
+					<h1 class="logo">
+						<a href="">
+							<img src="./images/common/logo_w.png" class="logo_w" alt="">
+							<img src="./images/common/logo_b.png" class="logo_b" alt="">
+						</a>
+					</h1>
+					<nav class="gnb" id="gnb">
+						<ul class="fx">
+							<li>
+								<span><a href="">현대</a></span>
+								<ul>
+									<li><span><a href="#none">미래비전</a></span></li>
+									<li><span><a href="#none">현대역사</a></span></li>
+									<li><span><a href="#none">CEO</a></span></li>
+									<li><span><a href="#none">경영이념</a></span></li>
+									<li><span><a href="#none">신조직문화 4T</a></span></li>
+									<li><span><a href="#none">사회공헌활동</a></span></li>
+									<li><span><a href="#none">계열사</a></span></li>
+									<li><span><a href="#none">그룹CI</a></span></li>
+								</ul>
+							</li>
+							<li>
+								<span><a href="">제품서비스</a></span>
+								<ul>
+									<li><span><a href="#none">현대엘리베이터</a></span></li>
+									<li><span><a href="#none">현대아산</a></span></li>
+									<li><span><a href="#none">현대무벡스</a></span></li>
+									<li><span><a href="#none">현대경제연구원</a></span></li>
+									<li><span><a href="#none">현대자산운용</a></span></li>
+									<li><span><a href="#none">현대글로벌</a></span></li>
+									<li><span><a href="#none">현대GB FMS</a></span></li>
+									<li><span><a href="#none">에이블현대호텔앤리조트</a></span></li>
+									<li><span><a href="#none">블룸비스타 호텔앤컨퍼런스</a></span></li>
+								</ul>
+							</li>
+							<li>
+								<span><a href="">투자정보</a></span>
+								<ul>
+									<li><span><a href="#none">IR REPORT</a></span></li>
+									<li><span><a href="#none">재무정보</a></span></li>
+									<li><span><a href="#none">공시정보</a></span></li>
+								</ul>
+							</li>
+							<li>
+								<span><a href="">홍보관</a></span>
+								<ul>
+									<li><span><a href="#none">현대HOT뉴스</a></span></li>
+									<li><span><a href="#none">동영상</a></span></li>
+									<li><span><a href="#none">사진</a></span></li>
+									<li><span><a href="#none">그룹광고모음</a></span></li>
+								</ul>
+							</li>
+							<li>
+								<span><a href="">현대인</a></span>
+								<ul>
+									<li><span><a href="#none">그룹인재상</a></span></li>
+									<li><span><a href="#none">인사·복지제도</a></span></li>
+									<li><span><a href="#none">채용문의</a></span></li>
+									<li><span><a href="#none">나의 현대생활</a></span></li>
+								</ul>
+							</li>
+						</ul>
+					</nav>
+					<div class="r_grup fx">
+						<div class="lang fx">
+							<i class="con"></i>
+							<ul>
+								<li>
+									<span class="ko">KOR<i class="arrow"></i></span>
+									<ul>
+										<li><span><a href="">ENG</a></span></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="gbt_menu">
+							<div class="icon fx">
+								<span></span>
+								<span></span>
+								<span></span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="site_map">
+				<div class="container">
+					<i class="close"><img src="./images/common/site_map_close.png"></i>
+					<div class="content">
+						<div class="list_grup">
+							<ul>
+								<li class="fx">
+									<h2 >현대</h2>
+									<ul class="fx">
+										<li><span><a href="">미래비전</a></span></li>
+										<li><span><a href="">현대역사</a></span></li>
+										<li><span><a href="">CEO</a></span></li>
+										<li><span><a href="">경영이념</a></span></li>
+										<li><span><a href="">신조직문화 4T</a></span></li>
+										<li><span><a href="">사회공헌활동</a></span></li>
+										<li><span><a href="">계열사</a></span></li>
+										<li><span><a href="">그룹CI</a></span></li>
+										<li><span><a href="">기업부설연구소</a></span></li>
+										<li><span><a href="">오시는길</a></span></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="list_grup">
+							<ul>
+								<li class="fx">
+									<h2>제품서비스</h2>
+									<ul class="fx">
+										<li><span><a href="">현대엘리베이터</a></span></li>
+										<li><span><a href="">현대아산</a></span></li>
+										<li><span><a href="">현대무벡스</a></span></li>
+										<li><span><a href="">현대경제연구원</a></span></li>
+										<li><span><a href="">현대자산운용</a></span></li>
+										<li><span><a href="">현대글로벌</a></span></li>
+										<li><span><a href="">에이블현대호텔앤리조트</a></span></li>
+										<li><span><a href="">블룸비스타호텔앤컨퍼런스</a></span></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="list_grup">
+							<ul>
+								<li class="fx">
+									<h2>투자정보</h2>
+									<ul class="fx">
+										<li><span><a href="">IR PEPORT</a></span></li>
+										<li><span><a href="">재무정보</a></span></li>
+										<li><span><a href="">공시정보</a></span></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="list_grup">
+							<ul>
+								<li class="fx">
+									<h2>홍보관</h2>
+									<ul class="fx">
+										<li><span><a href="">현대HOT뉴스</a></span></li>
+										<li><span><a href="">동영상</a></span></li>
+										<li><span><a href="">사진</a></span></li>
+										<li><span><a href="">그룹광고모음</a></span></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="list_grup">
+							<ul>
+								<li class="fx">
+									<h2>현대인</h2>
+									<ul class="fx">
+										<li><span><a href="">그룹인재상</a></span></li>
+										<li><span><a href="">인사·복지제도</a></span></li>
+										<li><span><a href="">채용문의</a></span></li>
+										<li><span><a href="">나의 현대생활</a></span></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="hover_bg"></div>
+
+		
+		<ul id="fullmenu">
+			<li data-menuanchor="page1" class="active"><a href="#page1"></a></li>
+			<li data-menuanchor="page2" ><a href="#page2"></a></li>
+			<li data-menuanchor="page3" ><a href="#page3"></a></li>
+			<li data-menuanchor="page4" ><a href="#page4"></a></li>
+			<li data-menuanchor="page5" ><a href="#page5"></a></li>
+			<li data-menuanchor="page6" ><a href="#page6"></a></li>
+		</ul>
+
+		<div id="full-page">
+			<div class="section section1" data-anchor="page1" id="top">
+
+				<div class="container">
+					<div class="scroll fx" data-aos="fade"  data-aos-duration="1000" data-aos-easing="ease"  data-aos-delay="1000">
+						<div class="box">
+							<i ></i>
+							<u><img src="./images/main/scroll_bow.png" alt=""></u>
+							<span>SCROLL</span>
+						</div>
+					  </div>
+					<div class="swiper-container sec1_slide">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide content1">
+								<div class="item fx">
+									<div class="text_box fx" data-aos="fade-up"  data-aos-duration="1000" data-aos-easing="ease"  data-aos-delay="300">
+										<p class="en">
+											꿈과 희망의 현대
+										</p>
+										<p class="ko">
+											현대가 움직이면 세계가 움직입니다.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide content2">
+								<div class="item fx">
+									<div class="text_box fx" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease" data-aos-delay="300">
+										<p class="en">
+											꿈과 희망의 현대
+										</p>
+										<p class="ko">
+											현대가 움직이면 세계가 움직입니다.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide content3">
+								<div class="item fx">
+									<div class="text_box fx" data-aos="fade-up"  data-aos-duration="1000" data-aos-easing="ease"  data-aos-delay="300">
+										<p class="en">
+											꿈과 희망의 현대
+										</p>
+										<p class="ko">
+											현대가 움직이면 세계가 움직입니다.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-pagination .sec1_pagi"></div>
+						
+					</div>
+					
+				</div>
+			</div>
+			<div class="section section2" data-anchor="page2">
+				<div class="container">
+
+					<div class="title_box fx" data-aos="fade-up"  data-aos-duration="1000" data-aos-easing="ease">
+						<h2 >
+							<span class="desc1">제품서비스</span>
+						</h2>
+						<P>
+							현대그룹 대표상품
+						</P>
+					</div>
+					<div class="slide_content" data-aos="fade-up"  data-aos-duration="1000" data-aos-easing="ease"  data-aos-delay="300">
+						<div class="swiper-container sec2_slide">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<a href="">
+										<div class="item">
+											<i class="more"><img src="./images/main/more.png"></i>
+											<div class="text_box">
+												<h3>현대엘리베이터</h3>
+												<p> 현대엘리베이터는 초고층 주상복합 빌딩, 오피스 빌딩, 호텔 등 </p>
+											</div>
+											<div class="img_box">
+												<img src="./images/main/section2_item1_img.jpg">
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class="swiper-slide">
+									<a href="">
+										<div class="item">
+											<i class="more"><img src="./images/main/more.png"></i>
+											<div class="text_box">
+												<h3>현대아산</h3>
+												<p> 금강산은 최고봉인 비로봉(1,638m)을 비롯한 수많은 봉우리와 </p>
+											</div>
+											<div class="img_box">
+												<img src="./images/main/section2_item2_img.jpg">
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class="swiper-slide">
+									<a href="">
+										<div class="item">
+											<i class="more"><img src="./images/main/more.png"></i>
+											<div class="text_box">
+												<h3>현대무벡스</h3>
+												<p> 현대상선의 터미널 운영 노하우와 현대무벡스의 최신 IT기술이 접목되어 개발된 터미널 운영 시스템 입니다. </p>
+											</div>
+											<div class="img_box">
+												<img src="./images/main/section2_item3_img.jpg">
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class="swiper-slide">
+									<a href="">
+										<div class="item">
+											<i class="more"><img src="./images/main/more.png"></i>
+											<div class="text_box">
+												<h3>현대경제연구원</h3>
+												<p> 매일 3~4편 업데이트 되는 5분 내외의 핵심 콘텐츠로 시대를 선도하는 혜안과 새로운 가치를 전달합니다. </p>
+											</div>
+											<div class="img_box">
+												<img src="./images/main/section2_item4_img.jpg">
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class="swiper-slide">
+									<a href="">
+										<div class="item">
+											<i class="more"><img src="./images/main/more.png"></i>
+											<div class="text_box">
+												<h3>현대자산운용</h3>
+												<p> 다양한 업종의 유망 벤처기업의 성장을 돕는 과정을 통해
+													투자자들의 성공과 국가경제의 견실한 성장에 기여할 것입니다. </p>
+											</div>
+											<div class="img_box">
+												<img src="./images/main/section2_item5_img.jpg">
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class="swiper-slide">
+									<a href="">
+										<div class="item">
+											<i class="more"><img src="./images/main/more.png"></i>
+											<div class="text_box">
+												<h3>현대글로벌</h3>
+												<p> 국내외 신재생에너지(태양광) 투자, 컨설팅, 건설, 품질보증 유지 보수까지 모두 포함하는 One-Stop 토털 서비스를 제공합니다. </p>
+											</div>
+											<div class="img_box">
+												<img src="./images/main/section2_item6_img.jpg">
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class="swiper-slide">
+									<a href="">
+										<div class="item">
+											<i class="more"><img src="./images/main/more.png"></i>
+											<div class="text_box">
+												<h3>현대GBFMS</h3>
+												<p> 국내 유일의 정통 IFM서비스 제공사로서 고객사의 비용절감과 효율성 증대를 최우선의 가치로 생각합니다. </p>
+											</div>
+											<div class="img_box">
+												<img src="./images/main/section2_item7_img.jpg.png">
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class="swiper-slide">
+									<a href="">
+										<div class="item">
+											<i class="more"><img src="./images/main/more.png"></i>
+											<div class="text_box">
+												<h3>에이블현대호텔앤리조트</h3>
+												<p> 반얀트리 클럽 앤 스파 서울은 다양한 수상경력을 자랑하는 도심형 리조트 입니다. </p>
+											</div>
+											<div class="img_box">
+												<img src="./images/main/section2_item8_img.jpg.png">
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class="swiper-slide">
+									<a href="">
+										<div class="item">
+											<i class="more"><img src="./images/main/more.png"></i>
+											<div class="text_box">
+												<h3>블룸비스타 호텔앤컨퍼런스</h3>
+												<p> 수도권 자연보전권역 내에서 유일하게 관광 · 휴양 및 교육 · 연수
+													시설을 갖춘 프리미엄 휴양 시설 입니다. </p>
+											</div>
+											<div class="img_box">
+												<img src="./images/main/section2_item9_img.png">
+											</div>
+										</div>
+									</a>
+								</div>
+
+							</div>
+							<div class="swiper-button-next"></div>
+							<div class="swiper-button-prev"></div>
+							<div class="swiper-pagination .sec2-pagination"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="section section3" data-anchor="page3">
+				<div class="container">
+					
+					<div class="title_box fx" data-aos="fade-up"  data-aos-duration="1000" data-aos-easing="ease">
+						<h2>
+							<span class="asdc1">현대인</span>
+						</h2>
+						<P> 꿈과 희망을 향한 도전과 창조적 예지로 풍요로운 내일을 창조합니다. </P>
+					</div>
+					<div class="content fx">
+						<div class="content_group fx">
+							<a href="" class="banner banner1" data-aos="fade-up"  data-aos-duration="1000" data-aos-easing="ease"  data-aos-delay="300">
+								<h4><u>그룹인재상</u></h4>
+								<p> 생각하고 행동하는 인재, 부지런하고 곧은 성품의 인재, 따뜻한 마음을 지닌 인재 </p>
+								<i><img src="./images/main/section3_banner_bow.png"></i>
+							</a>
+							<a href="" class="banner banner2" data-aos="fade-up"  data-aos-duration="1000" data-aos-easing="ease"  data-aos-delay="600">
+								<h4><u>인사·복지제도</u></h4>
+								<p> 투자와 보상을 아끼지 않고 있습니다.</p>
+								<i><img src="./images/main/section3_banner_bow.png"></i>
+							</a>
+							<a href="" class="banner banner3" data-aos="fade-up"  data-aos-duration="1000" data-aos-easing="ease"  data-aos-delay="900">
+								<h4><u>채용문의</u></h4>
+								<p>채용은 계열사별로 수시로 이루어지고 있습니다.</p>
+								<i><img src="./images/main/section3_banner_bow.png"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="section section5" data-anchor="page5">
+				<div class="container">
+					<div class="title_box fx" data-aos="fade-up"  data-aos-duration="1000" data-aos-easing="ease">
+						<h2>
+							<span class="asdc1">홍보관</span>
+						</h2>
+						<P>텍스트 </P>
+					</div>
+					<div class="content fx" data-aos="fade-up"  data-aos-duration="1000" data-aos-easing="ease"  data-aos-delay="300">
+						<div class="item fx">
+							<i class="fx">
+								<img src="./images/main/section5_item1_icon1.png" class="con1">
+								<img src="./images/main/section5_item1_icon2.png" class="con2">
+							</i>
+							<div class="text_box">
+								<h4>동영상</h4>
+								<p>동영상 뉴스</p>
+							</div>
+							<a class="more">
+								<span>VIEW</span>
+								<img src="./images/main/section5_bow.png">
+							</a>
+						</div>
+						<div class="item fx">
+							<i class="fx">
+								<img src="./images/main/section5_item2_icon1.png" class="con1">
+								<img src="./images/main/section5_item2_icon2.png" class="con2">
+							</i>
+							<div class="text_box">
+								<h4>정보</h4>
+								<p> 그룹사별 기업정보 </p>
+							</div>
+							<a class="more">
+								<span>VIEW</span>
+								<img src="./images/main/section5_bow.png">
+							</a>
+						</div>
+						<div class="item fx">
+							<i class="fx">
+								<img src="./images/main/section5_item3_icon1.png" class="con1">
+								<img src="./images/main/section5_item3_icon2.png" class="con2">
+							</i>
+							<div class="text_box">
+								<h4>광고</h4>
+								<p> 연도별 그룹광고 </p>
+							</div>
+							<a class="more">
+								<span>VIEW</span>
+								<img src="./images/main/section5_bow.png">
+							</a>
+						</div>
+						<div class="item fx">
+							<i class="fx">
+								<img src="./images/main/section5_item4_icon1.png" class="con1">
+								<img src="./images/main/section5_item4_icon2.png" class="con2">
+							</i>
+							<div class="text_box">
+								<h4>사진</h4>
+								<p>사진자료 모음</p>
+							</div>
+							<a class="more">
+								<span>VIEW</span>
+								<img src="./images/main/section5_bow.png">
+							</a>
+						</div>
+					</div>
+
+					<div class="news fx" data-aos="fade-up"  data-aos-duration="1000" data-aos-easing="ease"  data-aos-delay="600">
+						<div class="title_box fx">
+							<a href="" class="fx">
+								<!-- <span class="desc1">Company</span> -->
+								<span class="desc2">News</span>
+								<i class="more"><img src="./images/main/section5_banner_icon.png"></i>
+							</a>
+						</div>
+						<div class="new_view">
+							<div class="swiper-container news_view">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide"> <a href="" class="text">- [반얀트리클럽앤스파서울] 반얀트리 클럽 앤 스파 서울, ‘초콜...</a> <span class="day">2021.10.26</span> </div>
+									<div class="swiper-slide"> <a href="" class="text">- [현대엘리베이터] 현대엘리베이터, 스마트 오피스 구축으...</a> <span class="day">2021.10.05</span> </div>
+									<div class="swiper-slide"> <a href="" class="text">- [반얀트리클럽앤스파서울] 반얀트리 클럽 앤 스파 서울, 애프터...</a> <span class="day">2021.10.01</span> </div>
+									<div class="swiper-slide"> <a href="" class="text">- [반얀트리클럽앤스파서울] 반얀트리 클럽 앤 스파 서울, ‘그라...</a> <span class="day">2021.09.25</span> </div>
+								</div>
+								<div class="swiper-button-next"></div>
+								<div class="swiper-button-prev"></div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="section section6 fp-auto-height" data-anchor="page6" >
+				<div class="container">
+					<div class="title_box fx">
+						<h2>
+							<span class="desc1">FAMILY SITE</span>
+						</h2>
+						<P>HYUNDAI GROUP</P>
+					</div>
+					<div class="content fx">
+						<div class="item"><a href="http://www.hyundaielevator.co.kr/ko/index" target="_blank"><img src="./images/main/section6_logo1.png"></a></div>
+						<div class="item"><a href="https://www.hdasan.com/main" target="_blank"><img src="./images/main/section6_logo2.png"></a></div>
+						<div class="item"><a href="https://www.hyundaimovex.com/" target="_blank"><img src="./images/main/section6_logo3.png"></a></div>
+						<div class="item"><a href="http://www.hyundaiam.com/kor/HD-KP-WM/HD-KP-WM-01.html" target="_blank"><img src="./images/main/section6_logo4.png"></a></div>
+						<div class="item"><a href="http://www.hyundaiglobal.com/" target="_blank"><img src="./images/main/section6_logo5.png"></a></div>
+					</div>
+				</div>
+			</div>
+
+			<footer class="section section7 fp-auto-height" data-anchor="page7" >
+				<div class="container">
+
+
+
+					<div class="logo">
+						<img src="./images/common/logo_w.png">
+						<a href="#page1" id="topBtn" class="scroll-btn"></a>
+					</div>
+					
+					<div class="content">
+						<ul class="menu fx">
+							<li><span><a href="">담당자연락처</a></span></li>
+							<li><span><a href="">고객문의</a></span></li>
+							<li><span><a href="">제보하기</a></span></li>
+							<li><span><a href="">운영정책</a></span></li>
+							<li><span><a href="">개인정보처리방침</a></span></li>
+						</ul>
+					</div>
+
+					<p class="cope">서울특별시 종로구 율곡로 194 현대그룹빌딩<br><br>COPYRIGHT© ONSEMIRO. ALL RIGHT RESERVED.</p>
+				</div>
+			</footer>
+		</div>
+		<script>
+			$(document).ready(function(){
+				$('#full-page').fullpage({
+					menu: '#fullmenu',
+					anchors: ['page1', 'page2', 'page3', 'page4', 'page5','page6'],
+					licenseKey: '',
+					sectionColor: '',
+					navigation: false,
+					navigationPosition: 'right',
+					responsiveWidth: 1441,
+
+					//Section 이동 시 Header 에 class 추가
+					onLeave: function (origin, destination, direction) {
+ 						if (destination > 1 && destination < 7) {
+							$('.header').addClass("on");
+							$('.section [data-aos]').removeClass("aos-animate");
+						} else if(destination==7){
+							$('.section6 [data-aos]').addClass("aos-animate");
+						}else if(destination==1){
+							$('header.on').removeClass("on");
+						}else {
+
+							$('.section [data-aos]').removeClass("aos-animate");
+						}
+						
+					},
+					afterLoad: function () {
+						$('.section.active [data-aos]').addClass("aos-animate");
+					}
+				})
+			});
+		
+
+
+		</script>
+
+
+	</div>
+	<!--// wrap : E -->
+
+	<script type="text/javascript" src="js/main.js"></script>
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>
+	  AOS.init();
+	</script>
+</body>
+
+</html>

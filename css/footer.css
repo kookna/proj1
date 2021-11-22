@@ -1,0 +1,44 @@
+@charset "utf-8";
+footer {box-sizing: border-box; background: #222; height:auto !important;}
+footer .container {position: relative;}
+footer .container #topBtn{background:#363a8f url(../images/main/footer_top.png)no-repeat center / 100%; width:60px; height:60px; top:47px; right:0; position: absolute;}
+footer .container .logo{ text-align: center; padding:60px 0;}
+
+footer .content ul{max-width:967px; width:100%; margin:0 auto;}
+footer .content .menu{ padding:0 0 40px 0; justify-content: space-between; border-bottom:1px solid #474747;}
+footer .content .menu li span a{font-size:16px; font-weight: 700; color:#fff;}
+
+footer .cope{text-align: center; font-size:12px; font-weight: 400; color:#fff; padding:40px 0; box-sizing: border-box; letter-spacing: 2px;}
+
+@media(max-width:1440px){
+    footer .container #topBtn{bottom:22px; top:auto; right:40px; position: fixed !important; width:40px; height:40px;}
+}
+
+
+@media(max-width:830px){
+    footer .content .menu{flex-wrap: wrap; padding: 10px 10px 20px}
+    footer .content .menu li{width:50%; margin-bottom:10px;}
+}
+
+
+@media(max-width:768px){
+    footer .content .menu li span a{font-size:14px;}
+    footer .cope{letter-spacing: 5px;}
+}
+
+@media(max-width:590px){
+    footer .content .menu li span a{font-weight: 500;}
+    footer .cope{padding:30px; line-height: 1.4;}
+
+}
+
+@media(max-width:425px){
+    .section7{padding:0 20px !important;}
+    footer .cope{padding:30px 70px; line-height: 1.4; letter-spacing: 0;}
+    footer .container #topBtn{bottom:20px; right:20px;}
+
+}
+
+@media(max-width:375px){
+    footer .content .menu li span a{font-size:12px;}
+}
